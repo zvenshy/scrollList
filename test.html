@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<title>test</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	#box {
+	    overflow: hidden;
+	    height: 150px;
+	}
+
+	li {
+		height: 27px;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="box">
+	    <ul id="items">
+	        <li>itemfrist</li>
+	        <li>item1</li>
+	        <li>item2</li>
+	        <li>item3</li>
+	        <li>item4</li>
+	        <li>item5</li>
+	        <li>item6</li>
+	        <li>item7</li>
+	        <li>item8</li>
+	        <li>item9</li>
+	        <li>itemlast</li>
+	    </ul>
+	</div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="./scrollList.js"></script>
+<script type="text/javascript">
+	/* 
+	 * direction: String. down or top Default: top;
+	 * parent: jquery dom; Default: listBox.parent();
+	 */
+	$(document).ready(function () {
+		$('#items').scrollList(1000, 'down');
+	});
+
+</script>
+</html>

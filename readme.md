@@ -3,6 +3,9 @@
 ## Example
 `$('#items').scrollList();`
 
+## bower
+`bower install scrollList`
+
 ## Option
 **Example**:  `$('#items').scrollList(1000, 'down');`
 - `interval`: Number. interval time. Default: 500ms

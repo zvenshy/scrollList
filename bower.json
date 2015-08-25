@@ -1,0 +1,25 @@
+{
+  "name": "scrollList",
+  "main": "scrollList.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zvenshy/scrollList",
+  "authors": [
+    "zvenshy <zvenshy@gmail.com>"
+  ],
+  "description": "A jQuery Plugin for Seamless scroll up and down",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jQuery",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
